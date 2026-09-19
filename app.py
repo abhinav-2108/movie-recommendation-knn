@@ -85,7 +85,7 @@ st.markdown(
 @st.cache_data
 def load_data():
 
-    df = pd.read_csv("movie_ratings_merged.csv")
+    df = pd.read_csv("movie recomandation.csv")
 
     # Remove missing values
     df = df.dropna()
